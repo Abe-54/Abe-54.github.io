@@ -4,12 +4,13 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    /* border: 0.5px dashed red; */
 }
 
 body{
     font-family: "Roboto Mono", monospace;
     color: #edf0f1;
-    background-color: #343a40;
+    background-color: #23303C;
 }
 
 
@@ -36,7 +37,7 @@ li, a{
     display: flex;
     align-items: center;
     padding: 1.8em 10%;
-    background-color: #24252a;
+    background-color: #23303C;
 }
 
 .Navbar li {
@@ -89,16 +90,16 @@ li, a{
 }
 
 
-.Definition {
-    padding: 1em 5em;
-}
-
-.Meaning {
-    padding: 1em 5em;
+.Definition, .Meaning {
+    padding: 1em;
 }
 
 .GDD {
-    padding: 1em 0em;
+    padding: 1em;
+}
+
+.GDD p strong{
+    line-height: 3em;
 }
 
 .GDD ul {
@@ -108,7 +109,7 @@ li, a{
 
 .GDD li {
     margin: 1em;
-    background-color: #026096;
+    background-color: #557085;
     border-radius: 5px;
     margin: 1em;
     padding: 1em;
@@ -129,16 +130,27 @@ li, a{
 }
 
 ul.Pre_Production_Questions {
-    background-color: #026096;
+    background-color: #3B4C5A;
     border-radius: 5px;
     margin: 1em;
     padding: 1em;
     box-shadow: 3px 3px 5px 2px black;
 }
 
+#GDD {
+    background-color: #354553;
+}
+
+#Pre-Production_Information {
+    background-color: #293743;
+}
+
+.Row{
+    display: flex;
+}
+
 .Column {
-    float: left;
-    width: 50%;
+    flex: 1;
 }
 
 .Row::after{
