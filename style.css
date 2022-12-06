@@ -26,28 +26,24 @@ li {
 
 li, a{
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     color: #edf0f1;
     text-decoration: none;
 }
 
 .Heading {
     display: flex;
-    justify-content: flex-end;
     align-items: center;
-    padding: 30px 10%;
+    padding: 1.8rem 10%;
     background-color: #24252a;
 }
 
 .Navbar li {
     overflow: hidden;
     display: inline-block;
-    padding: 0px 20px;
+    padding: 0rem 1.1rem;
 }
 
-.Navbar li a {
-    transition: all 0.3s ease 0s;
-}
 
 .Navbar li a:hover {
     color: #0088a9;
@@ -59,11 +55,11 @@ li, a{
 }
 
 .Dropdown a {
-    font-size: 16px;
+    font-size: 1rem;
     border: none;
     outline: none;
     color: #edf0f1;
-    padding: 14px 16px;
+    padding: 0.95rem 1rem;
     background-color: inherit;
     font-family: inherit;
     margin: 0; 
@@ -72,16 +68,16 @@ li, a{
 .Dropdown_Content {
     display: none;
     position: absolute;
-    min-width: 160px;
+    min-width: 10rem;
     background-color: #24252a;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0rem 0.5rem 1rem 0rem rgba(0,0,0,0.2);
     z-index: 1;
 }
 
 .Dropdown_Content li a {
     float: none;
     color: #edf0f1;
-    padding: 12px 16px;
+    padding: 0.9rem 1rem;
     text-decoration: none;
     display: block;
     text-align: left;
@@ -94,33 +90,39 @@ li, a{
 .Intro {
     display: flex;
     align-items: center;
-    padding: 1em 20em;
+    padding: 1rem 20rem;
 }
 
 img.Intro_IMG {
-    border-radius: 2em;
+    border-radius: 2rem;
 }
 
 p.Intro_Paragraph {
-    font-size: 20px;
-    line-height: 2em;
-    padding-left: 1em;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    padding-left: 1rem;
 }
 
 .Pros {
-    padding: 1em 10em;
+    padding: 1rem 10rem;
+}
+
+
+.Pros h2 + .Pros p{
+    display: flex;
+    justify-content: center;
 }
 
 p.Pros_Paragraph {
-    padding-top: 0.5em;
-    font-size: 20px;
+    padding-top: 0.5rem;
+    font-size: 1.2rem;
 }
 
 .Pros_Videos {
     display: flex;
-    gap: 10em;
-    justify-content: start;
-    padding: 1em 0em;
+    gap: 10rem;
+    justify-content: space-around;
+    padding: 1rem 0rem;
 }
 
 .video_1 p, .video_2 p {
