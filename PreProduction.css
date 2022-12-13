@@ -36,7 +36,7 @@ li, a{
 .Heading {
     display: flex;
     align-items: center;
-    padding: 1.8em 10%;
+    padding: 1.5em 5%;
     background-color: #23303C;
 }
 
@@ -71,7 +71,7 @@ li, a{
     display: none;
     position: absolute;
     min-width: 10em;
-    background-color: #24252a;
+    background-color: #23303C;
     box-shadow: 0em 0.5em 1em 0em rgba(0,0,0,0.2);
     z-index: 1;
 }
@@ -121,7 +121,7 @@ li, a{
 }
 
 .GDD li a:hover {
-    color:gray;
+    color:0088a9;
 }
 
 .GDD img {

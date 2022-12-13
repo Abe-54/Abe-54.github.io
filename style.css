@@ -9,7 +9,7 @@
 body{
     font-family: "Roboto Mono", monospace;
     color: #edf0f1;
-    background-color: #343a40;
+    background-color: #23303C;
 }
 
 li {
@@ -35,7 +35,7 @@ li, a{
     display: flex;
     align-items: center;
     padding: 1.8rem 10%;
-    background-color: #24252a;
+    background-color: #23303C;
 }
 
 .Navbar li {
@@ -69,7 +69,7 @@ li, a{
     display: none;
     position: absolute;
     min-width: 10rem;
-    background-color: #24252a;
+    background-color: #23303C;
     box-shadow: 0rem 0.5rem 1rem 0rem rgba(0,0,0,0.2);
     z-index: 1;
 }
@@ -91,6 +91,7 @@ li, a{
     display: flex;
     align-items: center;
     padding: 1rem 20rem;
+    background-color: #293743;
 }
 
 img.Intro_IMG {
@@ -105,6 +106,7 @@ p.Intro_Paragraph {
 
 .Pros {
     padding: 1rem 10rem;
+    background-color: #354553;
 }
 
 
