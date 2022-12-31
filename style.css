@@ -4,6 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    outline: 1px dotted red;
 }
 
 body{
@@ -90,7 +91,7 @@ li, a{
 .Intro {
     display: flex;
     align-items: center;
-    padding: 1rem 20rem;
+    padding: 1rem clamp(1vh, max(1vh, 5vh), 20rem); 
     background-color: #293743;
 }
 
@@ -122,7 +123,7 @@ p.Pros_Paragraph {
 
 .Pros_Videos {
     display: flex;
-    gap: 10rem;
+    gap: min(1vh, 10rem);
     justify-content: space-around;
     padding: 1rem 0rem;
 }
