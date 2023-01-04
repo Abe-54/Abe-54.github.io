@@ -6,9 +6,9 @@ This website was the final project for my web programming course. This is my fir
  
 ## Screenshots
 <p float="left">
-  <img src="" width="600" />
-  <img src="" width="600" /> 
-  <img src="" width="600" />
+  <img src="https://user-images.githubusercontent.com/93175657/210476744-a8570c17-80f9-49d5-9850-74e8c8d2d634.png" width="600" />
+  <img src="https://user-images.githubusercontent.com/93175657/210476780-c50e8e8b-cd3d-44ab-9f5a-a5fbc973e44b.png" width="600" /> 
+  <img src="https://user-images.githubusercontent.com/93175657/210476854-64181440-05a3-48a9-815f-6fb36776e5ca.png" width="600" />
 </p>
 
 #What did I learn from making it?
